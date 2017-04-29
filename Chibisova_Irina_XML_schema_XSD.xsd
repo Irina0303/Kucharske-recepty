@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- Odkaz na github: https://github.com/Irina0303/Kucharske-recepty -->
+  <xs:element name="kucharske_Recepty">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nastaveni">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jazyk">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="vyber1"></xs:element>
+                    <xs:element type="xs:string" name="vyber2"></xs:element>
+                    <xs:element type="xs:string" name="vyber3"></xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:boolean" name="vyhledavani"></xs:element>
+              <xs:element type="xs:boolean" name="komentare"></xs:element>
+              <xs:element type="xs:boolean" name="video_recepty"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="nastaveni_uzivatelu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="uzivatel" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:boolean" name="oprava_uzivtelu"></xs:element>
+                    <xs:element type="xs:boolean" name="oprava_webu"></xs:element>
+                    <xs:element type="xs:boolean" name="pridavani_receptu"></xs:element>
+                    <xs:element type="xs:boolean" name="mazani_receptu"></xs:element>
+                    <xs:element type="xs:boolean" name="pridat_k_oblibenym"></xs:element>
+                    <xs:element type="xs:boolean" name="ohodnotit"></xs:element>
+                    <xs:element type="xs:boolean" name="pridat_komentar"></xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="jmeno" use="required"></xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="recepty" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nazev">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="kuchyne"></xs:attribute>
+                      <xs:attribute type="xs:integer" name="porce"></xs:attribute>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ingredience">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="suroviny" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="mnozstvi" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="jednotky" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="nazevPolozky"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="postup">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="krok"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="cas"/>
+              <xs:element type="xs:float" name="hodnoceni"/>
+              <xs:element type="xs:integer" name="pocetNazoru"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="kategorie" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

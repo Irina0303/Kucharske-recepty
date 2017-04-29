@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kucharske_Recepty>
+<!-- Odkaz na github: https://github.com/Irina0303/Kucharske-recepty -->
+
+<!--Nastaveni-->
+<nastaveni>
+<jazyk>
+<vyber1>CZ</vyber1>
+<vyber2>EN</vyber2>
+<vyber3>RUS</vyber3>
+</jazyk>
+<vyhledavani>1</vyhledavani>
+<komentare>1</komentare>
+<video_recepty>1</video_recepty>
+</nastaveni>
+<!-- Nastaveni uzivatelu -->
+<nastaveni_uzivatelu>
+<uzivatel jmeno="Registrovany uzivatel">
+<oprava_uzivtelu>0</oprava_uzivtelu>
+<oprava_webu>0</oprava_webu>
+<pridavani_receptu>1</pridavani_receptu>
+<mazani_receptu>1</mazani_receptu>
+<pridat_k_oblibenym>1</pridat_k_oblibenym>
+<ohodnotit>1</ohodnotit>
+<pridat_komentar>1</pridat_komentar>
+</uzivatel>
+<uzivatel jmeno="Host">
+<oprava_uzivtelu>0</oprava_uzivtelu>
+<oprava_webu>0</oprava_webu>
+<pridavani_receptu>0</pridavani_receptu>
+<mazani_receptu>0</mazani_receptu>
+<pridat_k_oblibenym>1</pridat_k_oblibenym>
+<ohodnotit>0</ohodnotit>
+<pridat_komentar>0</pridat_komentar>
+</uzivatel>
+<uzivatel jmeno="Admin">
+<oprava_uzivtelu>1</oprava_uzivtelu>
+<oprava_webu>1</oprava_webu>
+<pridavani_receptu>0</pridavani_receptu>
+<mazani_receptu>1</mazani_receptu>
+<pridat_k_oblibenym>0</pridat_k_oblibenym>
+<ohodnotit>0</ohodnotit>
+<pridat_komentar>0</pridat_komentar>
+</uzivatel>
+</nastaveni_uzivatelu>
+<!-- Recepty Polevky -->
+<recepty kategorie="Polevky">
+<nazev kuchyne="ceska" porce="4">Cesnecka se syrem</nazev>
+<ingredience>
+<suroviny>
+<mnozstvi jednotky="ks">4</mnozstvi>
+<nazevPolozky>brambory</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="kostka">1</mnozstvi>
+<nazevPolozky>hovezi bujon</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="ks">1</mnozstvi>
+<nazevPolozky>cibule</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="palicek">2</mnozstvi>
+<nazevPolozky>cesnek</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi>podle chuti</mnozstvi>
+<nazevPolozky>syr, sul, pepr, chlebove krutony</nazevPolozky>
+</suroviny>
+</ingredience>
+<postup>
+<krok>Vodu privedeme k varu, vhodime na kosticky nakrajene brambory, piidame bujon a varime 10 minut. </krok>
+<krok>Mezitim na kolecka nakrajime cibuli a osmahneme ji na trosce masla. </krok>
+<krok>Kdyz se brambory uvari, odstavime hrnec z plamene, pridame rozmackany cesnek, osmahnutou cibuli a koreni. </krok>
+</postup>
+<cas>20 min</cas>
+<hodnoceni>4.7</hodnoceni>
+<pocetNazoru>47</pocetNazoru>
+</recepty> 
+<!-- Recepty Salaty -->
+<recepty kategorie="Salaty">
+<nazev kuchyne="mexicka" porce="2">Caesar</nazev>
+<ingredience>
+<suroviny>
+<mnozstvi jednotky="ks">2</mnozstvi>
+<nazevPolozky>rimsky salat</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="g">150</mnozstvi>
+<nazevPolozky>balkansky syr</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="lzice">1</mnozstvi>
+<nazevPolozky>horcice</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="rizky">2</mnozstvi>
+<nazevPolozky>kureci prsa</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi>podle chuti</mnozstvi>
+<nazevPolozky>sul, pepr, olej, worcester, citronova stava</nazevPolozky>
+</suroviny>
+</ingredience>
+<postup>
+<krok>Salat omyjeme a natrhame do misy.</krok>
+<krok>Z horcice, worcesteru, citronovy stavy a olivovyho oleje umichame marinadu, kterou salat zalijeme.  </krok>
+<krok>Maso z prsicek nakrajime na nudlicky, osolime, opeprime a orestujeme na malem mnozstvi olivoveho oleje na panvi.  </krok>
+<krok>Kdyz je maso mekke, pridame je do salatu spolu s nakrajenym Balkanskim syrem. Vse promichame a podavame. </krok>
+</postup>
+<cas>15-20 min</cas>
+<hodnoceni>4.9</hodnoceni>
+<pocetNazoru>39</pocetNazoru>
+</recepty> 
+<!-- Recepty Dezerty-->
+<recepty kategorie="Dezerty">
+<nazev kuchyne="italska" porce="6">Tiramisu</nazev>
+<ingredience>
+<suroviny>
+<mnozstvi jednotky="lzice">2</mnozstvi>
+<nazevPolozky>cukr moucka</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="ks">3</mnozstvi>
+<nazevPolozky>vejce</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="kelimek">1</mnozstvi>
+<nazevPolozky>smetana ke slehani</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="g">250</mnozstvi>
+<nazevPolozky>mascarpone</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="balicky">2</mnozstvi>
+<nazevPolozky>dlouhe cukrarske piskoty</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi>podle chuti</mnozstvi>
+<nazevPolozky>kakao, alkohol</nazevPolozky>
+</suroviny>
+</ingredience>
+<postup>
+<krok>Zloutky vyslehame s mletym cukrem a lzici horke vody do peny. Pote pridame mascarpone a rucne vyslehame v hladky krem..</krok>
+<krok>Slehacku vyslehame se lzici vanilkou ovoneneho mouckoveho cukru.Ke zloutkove smesi pridrme bilky a slehacku a lehounce vymichame krem.  </krok>
+<krok>Formu vyskladame piskoty. Ty prelijeme vychladlou cernou kavou smichanou s alkoholem (rum, vodka, liker). Piskoty potreme kremem. Dame dalsi vrstvu piskotu a opet potreme zbylym kremem. Dukladne zasypeme kakaem. </krok>
+<krok>Tiramisu s mascarpone dame odlezet do lednice alespon na 12 hodin ulezet. Je to potreba, aby krem dobre ztuhl a drzel tvar. </krok>
+</postup>
+<cas>20 min</cas>
+<hodnoceni>4.5</hodnoceni>
+<pocetNazoru>192</pocetNazoru>
+</recepty> 
+<!-- Recepty prilohy-->
+<recepty kategorie="Prilohy">
+<nazev kuchyne="americka" porce="2">Tiramisu</nazev>
+<ingredience>
+<suroviny>
+<mnozstvi jednotky="ks">8-10</mnozstvi>
+<nazevPolozky>mensi brambory</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="lzice">8</mnozstvi>
+<nazevPolozky>olej</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi>podle chuti</mnozstvi>
+<nazevPolozky>koreni na americke brambory</nazevPolozky>
+</suroviny>
+</ingredience>
+<postup>
+<krok>Brambory omyjeme a dukladne ocistime kartackem nebo hrubou stranou houbicky a pokrajeme na mesicky.</krok>
+<krok>Troubu si predehrejeme cca na 200 °C. Na plech nalijeme olej a poklademe ctvrtky brambor tak, aby se nedotykaly. Posypeme korenim. </krok>
+<krok>Plech vlozime do trouby a americke brambory peceme 20 - 30 minut, dokud brambory nezmeknou. </krok>
+</postup>
+<cas>35 min</cas>
+<hodnoceni>4.7</hodnoceni>
+<pocetNazoru>116</pocetNazoru>
+</recepty> 
+<!-- Recepty  napoje-->
+<recepty kategorie="Napoje">
+<nazev kuchyne="ceska" porce="3">Zazvorovy caj</nazev>
+<ingredience>
+<suroviny>
+<mnozstvi jednotky="l">1</mnozstvi>
+<nazevPolozky>voda</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="ks">1</mnozstvi>
+<nazevPolozky>cerstvy zazvor</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi>podle chuti</mnozstvi>
+<nazevPolozky>citronova stava, med</nazevPolozky>
+</suroviny>
+</ingredience>
+<postup>
+<krok>Ze zazvoroveho korene odkrojime cast asi 5 cm dlouhou, oloupeme ji a nastrouhame na hrubem struhadle. </krok>
+<krok>Zazvor s vodou privedeme k varu a varime asi 15 minut. Pote nalev scedime. </krok>
+<krok>Stiplavou chut zazvoroveho caje zmirnime citronovou stavou a medem. Pijeme jeste teple.</krok>
+</postup>
+<cas>20 min</cas>
+<hodnoceni>4.3</hodnoceni>
+<pocetNazoru>87</pocetNazoru>
+</recepty> 
+<!-- Recepty testoviny-->
+<recepty kategorie="Testoviny">
+<nazev kuchyne="italska" porce="3">Tagliatelle se syrovou omackou, brokolici a slaninou</nazev>
+<ingredience>
+<suroviny>
+<mnozstvi jednotky="ks">1</mnozstvi>
+<nazevPolozky>kureci prso</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="ml">250</mnozstvi>
+<nazevPolozky>smetana</nazevPolozky>
+</suroviny>
+<suroviny>
+<nazevPolozky>syr</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="g">50</mnozstvi>
+<nazevPolozky>cedar</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="g">50</mnozstvi>
+<nazevPolozky>parmezan</nazevPolozky>
+</suroviny>
+<suroviny>
+<nazevPolozky>brokolice</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi jednotky="g">100</mnozstvi>
+<nazevPolozky>slaniny</nazevPolozky>
+</suroviny>
+<suroviny>
+<nazevPolozky>tagliatelle</nazevPolozky>
+</suroviny>
+<suroviny>
+<mnozstvi>podle chuti</mnozstvi>
+<nazevPolozky>sul, pepr, rozmaryn</nazevPolozky>
+</suroviny>
+</ingredience>
+<postup>
+<krok>Dame varit testoviny. Brokolici rozebereme na ruzickyky a udelame na pare. Na sucho oprazime nakrajenou slaninu. </krok>
+<krok>Kureci prsa nakrajeme, osolime a opeprime a na trose oleje osmahneme do zlatova. Pridame syr a nechame rozpustit. Zalijeme smetanou a pridame nastrohany chedar a parmezan. Pridame trochu rozmarinu a nechame provarit, dokud se syr nerozpusti.</krok>
+<krok>Omacku vmichame do uvarenych testovin. Na taliri ozdobime brokolici, slaninou a parmezanem. </krok>
+</postup>
+<cas>30 min</cas>
+<hodnoceni>4.8</hodnoceni>
+<pocetNazoru>67</pocetNazoru>
+</recepty>
+</kucharske_Recepty>

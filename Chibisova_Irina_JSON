@@ -1,0 +1,353 @@
+
+{
+"kucharske_Recepty":
+{
+   "nastaveni": {
+      "jazyk": {
+         "vyber1": "CZ",
+         "vyber2": "EN",
+         "vyber3": "RUS"
+      },
+      "vyhledavani": "1",
+      "komentare": "1",
+      "video_recepty": "1"
+   },
+   "nastaveni_uzivatelu": [
+      {
+      "@attributes":{
+         "jmeno": "Registrovany uzivatel"},
+         "oprava_uzivtelu": "0",
+         "oprava_webu": "0",
+         "pridavani_receptu": "1",
+         "mazani_receptu": "1",
+         "pridat_k_oblibenym": "1",
+         "ohodnotit": "1",
+         "pridat_komentar": "1"
+      },
+      {
+      "@attributes":{
+         "jmeno": "Host"},
+         "oprava_uzivtelu": "0",
+         "oprava_webu": "0",
+         "pridavani_receptu": "0",
+         "mazani_receptu": "0",
+         "pridat_k_oblibenym": "1",
+         "ohodnotit": "0",
+         "pridat_komentar": "0"
+      },
+      {
+      "@attributes":{
+         "jmeno": "Admin"},
+         "oprava_uzivtelu": "1",
+         "oprava_webu": "1",
+         "pridavani_receptu": "0",
+         "mazani_receptu": "1",
+         "pridat_k_oblibenym": "0",
+         "ohodnotit": "0",
+         "pridat_komentar": "0"
+      }
+   ],
+   "recepty": [
+      {
+      "@attributes":{
+         "kategorie": "Polevky"},
+         "nazev": {
+            "@kuchyne": "ceska",
+            "@porce": "4",
+            "#text": "Cesnecka se syrem"
+         },
+         "ingredience": [
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "4"
+               },
+               "nazevPolozky": "brambory"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "kostka",
+                  "#text": "1"
+               },
+               "nazevPolozky": "hovezi bujon"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "1"
+               },
+               "nazevPolozky": "cibule"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "palicek",
+                  "#text": "2"
+               },
+               "nazevPolozky": "cesnek"
+            },
+            {
+               "mnozstvi": "podle chuti",
+               "nazevPolozky": "syr, sul, pepr, chlebove krutony"
+            }
+         ],
+         "postup": [
+            "Vodu privedeme k varu, vhodime na kosticky nakrajene brambory, piidame bujon a varime 10 minut.",
+            "Mezitim na kolecka nakrajime cibuli a osmahneme ji na trosce masla.",
+            "Kdyz se brambory uvari, odstavime hrnec z plamene, pridame rozmackany cesnek, osmahnutou cibuli a koreni."
+         ],
+         "cas": "20 min",
+         "hodnoceni": "4.7",
+         "pocetNazoru": "47"
+      },
+      {
+         "@kategorie": "Salaty",
+         "nazev": {
+            "@kuchyne": "mexicka",
+            "@porce": "2",
+            "#text": "Caesar"
+         },
+         "ingredience": [
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "2"
+               },
+               "nazevPolozky": "rimsky salat"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "g",
+                  "#text": "150"
+               },
+               "nazevPolozky": "balkansky syr"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "lzice",
+                  "#text": "1"
+               },
+               "nazevPolozky": "horcice"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "rizky",
+                  "#text": "2"
+               },
+               "nazevPolozky": "kureci prsa"
+            },
+            {
+               "mnozstvi": "podle chuti",
+               "nazevPolozky": "sul, pepr, olej, worcester, citronova stava"
+            }
+         ],
+         "postup": [
+            "Salat omyjeme a natrhame do misy.",
+            "Z horcice, worcesteru, citronovy stavy a olivovyho oleje umichame marinadu, kterou salat zalijeme.",
+            "Maso z prsicek nakrajime na nudlicky, osolime, opeprime a orestujeme na malem mnozstvi olivoveho oleje na panvi.",
+            "Kdyz je maso mekke, pridame je do salatu spolu s nakrajenym Balkanskim syrem. Vse promichame a podavame."
+         ],
+         "cas": "15-20 min",
+         "hodnoceni": "4.9",
+         "pocetNazoru": "39"
+      },
+      {
+         "@kategorie": "Dezerty",
+         "nazev": {
+            "@kuchyne": "italska",
+            "@porce": "6",
+            "#text": "Tiramisu"
+         },
+         "ingredience": [
+            {
+               "mnozstvi": {
+                  "@jednotky": "lzice",
+                  "#text": "2"
+               },
+               "nazevPolozky": "cukr moucka"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "3"
+               },
+               "nazevPolozky": "vejce"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "kelimek",
+                  "#text": "1"
+               },
+               "nazevPolozky": "smetana ke slehani"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "g",
+                  "#text": "250"
+               },
+               "nazevPolozky": "mascarpone"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "balicky",
+                  "#text": "2"
+               },
+               "nazevPolozky": "dlouhe cukrarske piskoty"
+            },
+            {
+               "mnozstvi": "podle chuti",
+               "nazevPolozky": "kakao, alkohol"
+            }
+         ],
+         "postup": [
+            "Zloutky vyslehame s mletym cukrem a lzici horke vody do peny. Pote pridame mascarpone a rucne vyslehame v hladky krem..",
+            "Slehacku vyslehame se lzici vanilkou ovoneneho mouckoveho cukru.Ke zloutkove smesi pridrme bilky a slehacku a lehounce vymichame krem.",
+            "Formu vyskladame piskoty. Ty prelijeme vychladlou cernou kavou smichanou s alkoholem (rum, vodka, liker). Piskoty potreme kremem. Dame dalsi vrstvu piskotu a opet potreme zbylym kremem. Dukladne zasypeme kakaem.",
+            "Tiramisu s mascarpone dame odlezet do lednice alespon na 12 hodin ulezet. Je to potreba, aby krem dobre ztuhl a drzel tvar."
+         ],
+         "cas": "20 min",
+         "hodnoceni": "4.5",
+         "pocetNazoru": "192"
+      },
+      {
+         "@kategorie": "Prilohy",
+         "nazev": {
+            "@kuchyne": "americka",
+            "@porce": "2",
+            "#text": "Tiramisu"
+         },
+         "ingredience": [
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "8-10"
+               },
+               "nazevPolozky": "mensi brambory"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "lzice",
+                  "#text": "8"
+               },
+               "nazevPolozky": "olej"
+            },
+            {
+               "mnozstvi": "podle chuti",
+               "nazevPolozky": "koreni na americke brambory"
+            }
+         ],
+         "postup": [
+            "Brambory omyjeme a dukladne ocistime kartackem nebo hrubou stranou houbicky a pokrajeme na mesicky.",
+            "Troubu si predehrejeme cca na 200 °C. Na plech nalijeme olej a poklademe ctvrtky brambor tak, aby se nedotykaly. Posypeme korenim.",
+            "Plech vlozime do trouby a americke brambory peceme 20 - 30 minut, dokud brambory nezmeknou."
+         ],
+         "cas": "35 min",
+         "hodnoceni": "4.7",
+         "pocetNazoru": "116"
+      },
+      {
+         "@kategorie": "Napoje",
+         "nazev": {
+            "@kuchyne": "ceska",
+            "@porce": "3",
+            "#text": "Zazvorovy caj"
+         },
+         "ingredience": [
+            {
+               "mnozstvi": {
+                  "@jednotky": "l",
+                  "#text": "1"
+               },
+               "nazevPolozky": "voda"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "1"
+               },
+               "nazevPolozky": "cerstvy zazvor"
+            },
+            {
+               "mnozstvi": "podle chuti",
+               "nazevPolozky": "citronova stava, med"
+            }
+         ],
+         "postup": [
+            "Ze zazvoroveho korene odkrojime cast asi 5 cm dlouhou, oloupeme ji a nastrouhame na hrubem struhadle.",
+            "Zazvor s vodou privedeme k varu a varime asi 15 minut. Pote nalev scedime.",
+            "Stiplavou chut zazvoroveho caje zmirnime citronovou stavou a medem. Pijeme jeste teple."
+         ],
+         "cas": "20 min",
+         "hodnoceni": "4.3",
+         "pocetNazoru": "87"
+      },
+      {
+         "@kategorie": "Testoviny",
+         "nazev": {
+            "@kuchyne": "italska",
+            "@porce": "3",
+            "#text": "Tagliatelle se syrovou omackou, brokolici a slaninou"
+         },
+         "ingredience": [
+            {
+               "mnozstvi": {
+                  "@jednotky": "ks",
+                  "#text": "1"
+               },
+               "nazevPolozky": "kureci prso"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "ml",
+                  "#text": "250"
+               },
+               "nazevPolozky": "smetana"
+            },
+            {
+               "nazevPolozky": "syr"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "g",
+                  "#text": "50"
+               },
+               "nazevPolozky": "cedar"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "g",
+                  "#text": "50"
+               },
+               "nazevPolozky": "parmezan"
+            },
+            {
+               "nazevPolozky": "brokolice"
+            },
+            {
+               "mnozstvi": {
+                  "@jednotky": "g",
+                  "#text": "100"
+               },
+               "nazevPolozky": "slaniny"
+            },
+            {
+               "nazevPolozky": "tagliatelle"
+            },
+            {
+               "mnozstvi": "podle chuti",
+               "nazevPolozky": "sul, pepr, rozmaryn"
+            }
+         ],
+         "postup": [
+            "Dame varit testoviny. Brokolici rozebereme na ruzickyky a udelame na pare. Na sucho oprazime nakrajenou slaninu.",
+            "Kureci prsa nakrajeme, osolime a opeprime a na trose oleje osmahneme do zlatova. Pridame syr a nechame rozpustit. Zalijeme smetanou a pridame nastrohany chedar a parmezan. Pridame trochu rozmarinu a nechame provarit, dokud se syr nerozpusti.",
+            "Omacku vmichame do uvarenych testovin. Na taliri ozdobime brokolici, slaninou a parmezanem."
+         ],
+         "cas": "30 min",
+         "hodnoceni": "4.8",
+         "pocetNazoru": "67"
+      }
+   ]
+}
+}
+
+

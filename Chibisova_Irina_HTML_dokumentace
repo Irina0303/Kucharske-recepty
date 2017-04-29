@@ -1,0 +1,226 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+  <!-- Odkaz na github: https://github.com/Irina0303/Kucharske-recepty -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="Author" content="Chibisova Irina">
+  <title>HTML - dokumentace </title>     
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <nav>
+      <h2><font color="DarkBlue">Obsah:</font></h2>
+      <ul>
+        <li><a href="#uvod">Úvod</a></li>
+        <li><a href="#metodika">Metodika</a></li>
+        <li><a href="#popis">Popis elementů a atributů</a></li>
+        <li><a href="#transformace">Popis transformace</a></li>
+        <li><a href="#zaver">Závěr</a></li>
+      </ul>
+      <hr />
+    </nav>
+    <main>
+      <section id="uvod">
+        <article>
+          <header>
+            <h2><font color="DarkBlue">Úvod</font></h2>
+          </header>          
+          <p>
+          Téma semestrálního projektu je webová aplikace s kuchařskými recepty.
+          </p>
+          <p> Slouží k vyhledávání a přidávání receptů.</p> 
+        </article>
+      </section>
+      <section id="metodika">
+        <article>
+          <header>
+            <h2><font color="DarkBlue">Metodika</font></h2>
+          </header>
+          <h3>Využité programy</h3>
+          <p>
+          Pro tvorbu tohoto projektu jsem použila:</p>
+          <p>- programy <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="http://xml-copy-editor.sourceforge.net/">Copy Editor</a> a prohlížeč <a href="https://www.google.com/chrome/">Google Chrome</a>.    
+          </p>
+          <p>- webové stránky <a href="https://www.w3schools.com/">W3Schools</a>, <a href="http://www.freeformatter.com/">Freeformatter</a> a přednašky z predmetu <a href="https://moodle.czu.cz/">"Značkovací jazyky"</a>
+          </p>        
+        </article>
+      </section>
+      <section id="popis" >
+        <article>
+          <header>
+            <h2><font color="DarkBlue">Popis elementů a atributů</font></h2>
+          </header>
+          <h3>Použité elementy</h3>
+          <table border="2">
+            <tr>
+              <td><font color="red" size="4"><center> Název elementů</center></font></td>
+              <td><font color="red" size="4"><center>Popis elementů</center></font></td>
+            </tr>
+            <tr>                       
+              <td>nastaveni</td>
+              <td>Obsahuje nastavení aplikace</td>
+            </tr>
+            <tr>                       
+              <td>jazyk</td>
+              <td>Určuje v jakém jazyce bude psaná aplikace</td>
+            </tr> 
+            <tr>                       
+              <td>vyber1</td>
+              <td>Čeština</td>
+            </tr>
+            <tr>                       
+              <td>vyber2</td>
+              <td>Angličtina</td>
+            </tr>
+            <tr>                       
+              <td>vyber3</td>
+              <td>Ruština</td>
+            </tr>
+            <tr>                       
+              <td>vyhledavani</td>
+              <td>Možnost vyhledávání receptů</td>
+            </tr>
+            <tr>                       
+              <td>komentare</td>
+              <td>Možnost přidvání komentářů</td>
+            </tr>
+            <tr>                       
+              <td>video_recepty</td>
+              <td>Možnost prohližet video recepty</td>
+            </tr>
+            <tr>                       
+              <td>nastaveni_uzivtelu</td>
+              <td>Obsahuje uživatelské prava</td>
+            </tr>
+            <tr>                       
+              <td>uzivatel</td>
+              <td>Typ uživatelů: "Registrovany uzivatel", "Host" nebo "Admin"</td>
+            </tr> 
+            <tr>                       
+              <td>oprava_uzivatelu</td>
+              <td>Možnost upravy uživatelů</td>
+            </tr>
+            <tr>                       
+              <td>oprava_webu</td>
+              <td>Možnost upravy rozhraní</td>
+            </tr>
+            <tr>                       
+              <td>mazani_receptu</td>
+              <td>Možnost smazat recept</td>
+            </tr>
+            <tr>                       
+              <td>pridavani_receptu</td>
+              <td>Možnost přidat recept</td>
+            </tr>
+            <tr>                       
+              <td>pridat_k_oblibenym</td>
+              <td>Možnost přidat recept do oblíbených</td>
+            </tr>
+            <tr>                       
+              <td>ohodnotit</td>
+              <td>Možnost hodnocení jednotnivých receptů</td>
+            </tr>
+            <tr>                       
+              <td>pridat_komentar</td>
+              <td>Možnost komentovat jednotlivé recepty</td>
+            </tr>
+            <tr>                       
+              <td>recepty</td>
+              <td>Popis recepta</td>
+            </tr>
+            <tr>                       
+              <td>nazev</td>
+              <td>Nazev recepta</td>
+            </tr>
+            <tr>                       
+              <td>ingredience</td>
+              <td>Popis ingredientů</td>
+            </tr>
+            <tr>                       
+              <td>suroviny</td>
+              <td>Popisuje nazev a množství surovin</td>
+            </tr>
+            <tr>                       
+              <td>mnozstvi</td>
+              <td>Množství surovin</td>
+            </tr>
+            <tr>                       
+              <td>nazevPolozky</td>
+              <td>Nazev potravin</td>
+            </tr>
+            <tr>                       
+              <td>Postup</td>
+              <td>Popisuje jednotlivé kroky vaření</td>
+            </tr>
+            <tr>                       
+              <td>krok</td>
+              <td>Popisuje postup vaření</td>
+            </tr>
+            <tr>                       
+              <td>cas</td>
+              <td>Určuje čas vaření</td>
+            </tr>
+            <td>hodnoceni</td>
+              <td>Hodnocení receptů</td>
+            </tr>
+            <tr>                       
+              <td>pocetNazoru</td>
+              <td>Určuje kolik názoru má recept</td>
+            </tr>
+             </table>
+          <h3>Použité atributy</h3>
+          <table border="2">
+            <tr>
+              <td><font color="red" size="4"><center>Název atriburů</center></font></td>
+              <td><font color="red" size="4"><center>Popis atributů</center></font></td>
+            </tr>
+            <tr>                       
+              <td>jmeno</td>
+              <td>Určuje typ uživatele: registrovany uzivatel, host, admin</td>
+            </tr>
+            <tr>                       
+              <td>kategorie</td>
+              <td>Určuje kategorie receptů</td>
+            </tr>
+            <tr>                       
+              <td>kuchyne</td>
+              <td>Určuje typ kychyně</td>
+            </tr> 
+             <tr>                       
+              <td>porce</td>
+              <td>Určuje množství porci</td>
+            </tr>
+             <tr>                       
+              <td>jednotky</td>
+              <td>Určuje název jednotky surovin</td>
+            </tr>                     
+          </table>
+        </article>
+      </section>
+      <section id="transformace">
+        <article>
+          <header>
+            <h2><font color="DarkBlue">Popis transformace</font></h2>
+          </header>
+          <p>Transformace byla provedena pomocí cyklu for-each, která vybere recepty s hodnocením vyšší nebo rovno 4.5, všechny informace seřadí podle nazvu receptů. Obsahuje test na zjištění zda údaj byl poslední, a případné doplnění čárky pro správnou syntaxi.</p>
+        </article>
+      </section>
+      <section id="zaver">
+        <article>
+          <header>
+            <h2><font color="DarkBlue">Závěr</font></h2>
+          </header>
+          <p>Při tvorbě této práce jsem se seznámila s jazykem XML. Pomoci přednášek a cvičení z předmetu "Značkovací jazyky" jsem se naučila pracovat s dokumenty XML. Hlavním cílem této práce bylo vytvořit XML dokument podle požadavků  a vyzkoušet na praxe teorezické znalosti z daného předmětu. Odkaz na <a href="https://github.com/Irina0303/Kucharske-recepty/">Github</a>
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+    <p><font color="darkmagenta">Zpracovala &copy: Chibisova Irina, 2017       ČZU</font></p>
+    </footer>
+    </div>
+  </body>
+</html>
